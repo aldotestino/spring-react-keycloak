@@ -13,6 +13,8 @@ Dashboard Admin di KeyCloak: http://localhost:8085 (username e password nel file
 Verrà creato automaticamente un realm `test`, con client `postman`, `backend` (confidential) e `frontend` (public).
 Il realm è stato creato seguendo: https://bootify.io/next-steps/keycloak-configuration-for-spring-boot.html con l'aggiunta di un realm role "ADMIN_ROLE".
 
+Esportare il realm in caso di modifiche: https://www.baeldung.com/spring-boot-keycloak#6-exporting-realms
+
 ## Test Postman
 
 Recuperare "Client Secret" del client `postman`: http://localhost:8085/admin/master/console/#/test/clients/ac8c6aa3-db09-4e37-8d43-f0e5429d4e65/credentials
